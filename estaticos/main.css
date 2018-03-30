@@ -1,0 +1,616 @@
+.caption {
+    padding-top: 0px;
+    margin-top: 0px;
+    padding-left: 10px;
+    margin-bottom: 16px;
+    padding-left: 0px;
+}
+
+.select-wrapper {
+    text-align: center;
+    margin: 0 auto;
+}
+
+main, footer {
+    padding-left: 280px;
+}
+
+.nav-wrapper {
+    padding-left: 280px;
+}
+
+.conten {
+    margin-top: 24px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.conten-body {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+.side-nav {
+    width: 300px;
+}
+
+#nav-mobile .first {
+    margin-left: 20px;
+}
+
+.main-content {
+    padding-top: 5px;
+}
+
+.main-content .input-field label {
+    left: 0px;
+}
+
+.card-panel {
+    padding: 24px;
+}
+
+/* Menu */
+
+/* SIDE NAV CUSTOM*/
+
+.side-nav {
+    height: 100%!important;
+    width: 280px;
+}
+
+.side-nav li > a > i, .side-nav li > a > [class^="mdi-"], .side-nav li > a li > a > [class*="mdi-"], .side-nav li > a > i.material-icons{
+    color: #ec202c;
+}
+
+#sidenav-overlay {
+    display: none;
+}
+
+.sidebar-menu {
+    padding-top: 15px!important;
+    padding-bottom: 15px!important;
+}
+
+.side-nav a {
+    padding: 0 20px;
+}
+
+.side-nav li>a>i, .side-nav li>a>[class^="mdi-"], .side-nav li>a>[class*="mdi-"], .side-nav li>a>i.material-icons {
+    margin: 0 22px 0 0;
+}
+
+.side-menu-title {
+    text-align: left;
+    padding-top: 25px;
+    padding-left: 22px;
+}
+
+.side-menu-title-sub {
+    text-align: left;
+    padding-left: 22px;
+}
+
+.sidebar-footer{
+    bottom: 0;
+    left: 75px;
+    position: absolute;    
+}
+
+.sidebar-header h4#clap{
+    background: transparent url("../img/id_login.png") no-repeat scroll 65px 0px;
+    background-size: 110px;
+    height: 65px;
+    margin-bottom: 0px;
+    margin-top: 0;
+    overflow: hidden;
+    text-indent: -1000px;    
+    padding-left: 17px;
+    padding-bottom: 10px;
+    margin-top: 13px;
+}
+
+.sidebar-header h4#patria{
+    background: transparent url("../img/patria_id_interior.png") no-repeat scroll 35px 0px;
+    /*background-size: 110px;*/
+    height: 65px;
+    margin-bottom: 0px;
+    margin-top: 0;
+    overflow: hidden;
+    text-indent: -1000px;    
+    /*padding-left: 17px;*/
+    padding-bottom: 10px;
+    margin-top: 13px;
+}
+
+.sidebar-menu {
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+}
+
+@media only screen and (max-width: 993px) {
+    main, footer {
+        padding-left: 0px;
+    }
+    .nav-wrapper {
+        padding-left: 0px;
+    }
+}
+
+
+#confirm{
+    max-width: 400px; 
+}
+
+#confirm .modal-footer{
+    background-color: #eeeeee;
+}
+
+a {
+    color: #e55025;
+}
+
+.adjusted-size {
+    width: 20px !important;
+    text-align: right !important;
+    padding-left: 8px !important;
+    padding-right: 8px !important;
+    white-space: nowrap !important;
+}
+
+.dataTables_length select {
+    height: 2rem;
+    margin-top: 8px;
+}
+
+.header-title-left h5{
+    padding: 25px 0 0 25px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.btn-actions {
+    margin-bottom: 7.5px !important;
+}
+
+.row-end {
+    margin-bottom: 0px !important;
+}
+/*REgistro*/
+
+.logo-clap {
+    background: transparent url("../img/id_login.png") no-repeat scroll 50% 30px;
+    background-size: 130px;
+    height: 85px;
+    margin-bottom: 48px;
+    margin-top: 0;
+    overflow: hidden;
+    text-indent: -1000px;    
+    padding-left: 17px;
+    padding-bottom: 10px;
+    margin-top: 13px;
+}
+.logo-patria {
+    background: transparent url("../img/patria_id_interior.png") no-repeat scroll 50% 30px;
+    background-size: 195px;
+    height: 85px;
+    margin-bottom: 48px;
+    margin-top: 0;
+    overflow: hidden;
+    text-indent: -1000px;    
+    padding-left: 17px;
+    padding-bottom: 10px;
+    margin-top: 13px;
+}
+
+#registro-form .error, #confirmar-form .error {
+    color: #e55025;
+    text-align: left;
+}
+
+@media only screen and (max-width: 993px) {
+    .sidebar-header h4 {
+        padding-left: 45px;
+        margin-top: -35px;
+        padding-bottom: 15px;
+    }
+    .button-collapse-ext i{
+        padding-top: 20px;
+    }
+    .button-collapse-ext {
+        padding-top: 17px;
+        margin-top: 35px;
+        padding-left: 10px;
+    }
+    .side-nav li > a {
+        padding: 0 16px;
+    }
+    .sidebar-header h4#patria{
+        margin-top: -40px;
+        margin-left: 15px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+    .dataTables_info {
+        display: none;
+    }
+    .conten {
+        padding: 8px;
+        margin-top: 8px;
+    }
+
+    .paginate_button {
+        padding: 0 !important;
+    }
+
+    .material-pagination {
+        padding-top: 8px;
+    }
+    .btn {
+        padding: 0 10px;
+    }
+    .card-content ul {
+        margin-top: 5px;
+    }
+}
+
+#profile-card .btn-move-up {
+    position: relative;
+    top: -45px;
+    right: -18px;
+    margin-right: 10px !important;
+}
+
+#profile-card .card-content p {
+    font-size: 1.2rem;
+    margin: 10px 0 12px;
+}
+
+.materialize-tags .chip {
+    margin-top: 0px;
+}
+
+table .dataTable {
+    width: 100%;
+}
+
+table.dataTable.dtr-inline.collapsed > tbody > tr > td:first-child::before, table.dataTable.dtr-inline.collapsed > tbody > tr > th:first-child::before {
+    top: 22px;
+}
+
+.collapsible-body a {
+    padding-left: 75px !important;
+}
+
+.side-nav li.active {
+    background-color: rgba(0,0,0,0.05) !important;
+    color: rgba(0,0,0,0.87) !important;
+}
+
+.side-nav li.active a{
+    color: rgba(0,0,0,0.87) !important;
+}
+
+.tab-demo {
+    margin-top: 10px;
+}
+
+.submenu a{
+    padding-left: 85px !important;
+}
+
+.bodytext ul li {
+    padding-bottom: 5px;
+}
+
+.numeric {
+    text-align: right;
+    padding-right: 50px;
+    width: 230px;
+}
+
+span.badge {
+    min-width: 1rem;
+}
+
+input:-webkit-autofill {
+    background-color: white !important;
+}
+
+input[type=email][readonly="readonly"],input[type=text][readonly="readonly"] {
+    border-bottom: 1px solid #9e9e9e;
+    color: inherit;
+}
+
+.input-field ul {
+    color: #e55025;
+    margin-top: -10px;
+}
+
+.btn-bar-text {
+    display: inline;
+    margin-left: 5px;
+    position: absolute;
+    margin-top: 1px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 25px;
+    width: 100%;
+}
+
+.footer hr {
+    border-color: rgba(0,0,0,0.05) !important;
+    margin-bottom: 30px;
+}
+
+.promotions {
+    padding-left: 22px;
+}
+
+.promotions .text-p{
+    font-size: 14px;
+    font-weight: 500;
+    height: 48px;
+}
+
+[type="radio"]:not(:checked)+label, [type="radio"]:checked+label {
+    padding-left: 25px;
+}
+
+.rb_si, .rb_no {
+    margin-left: 20px;
+}
+
+select[required]{
+    display: inline;
+    position: absolute;
+    float: left;
+    padding: 0;
+    margin: 0;
+    border: none;
+    height: 0;
+    width: 0;
+    top: 2em;
+    left: 0;
+    box-shadow: none;
+}
+.uname-error {
+    color: red;
+}
+
+#codigo, #username, #appbundle_email_code, #appbundle_phone_code, .uppercase {
+    text-transform: uppercase;
+}
+
+label[for=appbundle_accounts_principal] {
+    margin-left: 10px;
+}
+
+.in-flex {
+    display: inline-flex;
+    padding-bottom: 15px;
+}
+
+.in-flex .material-icons {
+    padding-right: 5px;
+}
+
+.bodytext-verfy {
+    display: grid;
+    margin-top: 5px;
+    margin-left: -2px;
+}
+
+.in-flex b {
+    padding-top: 2px;
+}
+.card-bono {
+    padding: 0px;
+    width: 300px;
+    padding-bottom: 16px;
+    min-height: 435px;
+}
+.bono-footer {
+    padding-left: 24px;
+    padding-right: 24px;
+}
+.txt-bono {
+    display: table;
+    min-height: 40px;
+    width: 100%;
+    clear: both;
+    margin-bottom: 10px;
+}
+.centered-text {
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+.bono-name {
+    font-size: 16px;
+    font-weight: 500;
+    color: #646363;
+    width: 100%;
+    float: left;
+    clear: both;
+}
+.det-bono {
+    font-size: 14px;
+    font-weight: 300;
+    width: 100%;
+    float: left;
+    clear: both;
+}
+.btn-bono {
+    margin-top: 5px;
+    text-align: center;
+}
+.bono-info {
+    padding-top: 7px;
+    padding-left: 10px;
+    position: absolute;
+}
+
+@media only screen and (max-height: 700px) {
+    .footer{
+        top:600px;
+    }
+}
+
+#card-alert button {
+    background: none;
+    border: none;
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    font-size: 20px;
+    color: #fff;
+}
+
+.card-notify .card-content{
+    padding: 16px;
+}
+
+#appbundle_family_schoolRIF, #appbundle_nfamily_cedula, #appbundle_family_cedula {
+    text-transform: uppercase;
+}
+
+nav ul li.active {
+    background-color: rgba(0,0,0,0.2);
+}
+
+.verificaton-nota {
+    margin-bottom: 0px;
+    margin-top: 16px;
+    padding-left: 0px !important;
+}
+
+/*
+.row-account {
+    margin-top: 65px
+}
+*/
+
+@media only screen and (min-width: 993px){
+    .row .col.l5 {
+        width: 61.6666666667%;
+    }
+}
+@media only screen and (min-width: 1200px){
+    .row .col.l5 {
+        width: 41.6666666667%;
+    }
+}
+
+.card-action {
+    position: relative;
+    background-color: inherit;
+    border-top: 1px solid rgba(160,160,160,0.2);
+    padding: 16px 24px;
+}
+
+.btn-blue{
+    background-color: #0C71B8;
+}
+
+.btn-blue:hover, .btn-blue:active,.btn-blue:focus  {
+    background-color: #0C71B8;
+}
+
+.account_text {
+    padding-top: 30px;
+}
+
+.input-field label:not(.label-icon).account_text.active {
+    padding-top: 70px;
+}
+
+span.badge.new {
+    font-weight: 400;
+}
+
+.social-block li {
+    padding-bottom: 5px;
+}
+.social-block h6 {
+    font-weight: 500;
+    color: #ec202c;
+}
+.social-block a {
+    line-height: 25px;
+    color: rgba(0,0,0,0.87);
+}
+.social-block span {
+    display: inline-block;
+    text-align: center;
+    padding-right: 5px;
+}
+.social-block i {
+    color: #9e9e9e;
+}
+
+/*select[required] {
+    display: inline;
+    position: absolute;
+    float: left;
+    padding: 0;
+    margin: 0;
+    border: none;
+    height: 0;
+    width: 0;
+    top: 2em;
+    left: 0;
+    box-shadow: none;
+}*/
+
+.dataTables_empty {
+    text-align: left !important;
+}
+
+h5 .info {
+    margin-left: 10px;
+    font-size: 0.6em;
+    font-weight: 350;
+}
+
+h5 .amount {
+    margin-left: 10px;
+    font-size: 0.7em;
+    font-weight: 400;
+}
+
+.text-info {
+    font-weight: 400;
+    overflow: hidden;
+    font-size: 14px;
+    line-height: 24px;
+}
+.text-info::before {
+    content: "\E88E";
+    font-size: 24px;
+    color: #888888;
+    position: relative;
+    float: left;
+    margin: auto;
+    font-family: "Material Icons";
+}
+.text-content {
+    padding-left: 35px;
+}
+
+.btn-small {
+    padding: 0 1rem;
+}
+
+.btn-sp {
+    padding: 0 1rem;
+    width: 115px;
+}
+
+.btn-reject {
+    margin-left: 10px;
+}
